@@ -10,6 +10,8 @@ CITY_DATA = {'chicago': 'chicago.csv',
 			 'washington': 'washington.csv'}
 
 
+
+# KT - gets the user's input for the filters to be used (city, month and day)
 def get_filters():
 	""" Asks user to specify a city, month, and day to analyze.
 	Returns:
@@ -70,7 +72,7 @@ def load_data(city, month, day):
 	df['hour'] = df['Start Time'].dt.hour
 
 	# KT - create the station start-end combination column
-	df['Start End Combo'] = df['Start Station'] + " to " + df['End Station']
+	df['Start End Combo'] = df['Start Station'] + " direction " + df['End Station']
 
 	# KT - define the months list
 	months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
@@ -304,7 +306,7 @@ def main():
 		trip_duration_stats(df)
 		user_stats(df)
 
-		restart = input('\nWould you like to restart? Enter yes or no.\n')
+		restart = input('\nDo you wish to restart this program? Enter yes or no.\n')
 		if restart.lower() != 'yes':
 			break
 
