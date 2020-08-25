@@ -5,7 +5,7 @@ Include the date you created this project and README file.
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+This project is a simple program that uses Python to analyse and display data on US bikesharing in New York City, Chicago and Washington.
 
 ### Files used
 Include the files used
