@@ -2,6 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 
+# Welcome to this simple Python program used to explore US Bikeshare data. In combination with the csv files mentioned below, this will run in your command line.
+
 # KT - Dictionary to hold the data sources for the cities
 CITY_DATA = {'chicago': 'chicago.csv',
 			 'new york city': 'new_york_city.csv',
