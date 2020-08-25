@@ -8,7 +8,9 @@ Replace the Project Title
 This project is a simple program that uses Python to analyse and display data on US bikesharing in New York City, Chicago and Washington.
 
 ### Files used
-Include the files used
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
