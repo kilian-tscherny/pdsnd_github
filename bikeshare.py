@@ -70,7 +70,7 @@ def load_data(city, month, day):
 	df['hour'] = df['Start Time'].dt.hour
 
 	# KT - create the station start-end combination column
-	df['Start End Combo'] = df['Start Station'] + " to " + df['End Station']
+	df['Start End Combo'] = df['Start Station'] + " direction " + df['End Station']
 
 	# KT - define the months list
 	months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
