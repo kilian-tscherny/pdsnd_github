@@ -8,6 +8,8 @@ CITY_DATA = {'chicago': 'chicago.csv',
 			 'washington': 'washington.csv'}
 
 
+
+# KT - gets the user's input for the filters to be used (city, month and day)
 def get_filters():
 	""" Asks user to specify a city, month, and day to analyze.
 	Returns:
